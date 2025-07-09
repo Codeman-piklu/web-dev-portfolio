@@ -112,6 +112,7 @@ main{
     padding: 130px 156px;
     text-align: center;
     margin-top: 130px;
+  
     
 }
 .item_title{
@@ -125,5 +126,87 @@ main{
 .about_items {
     display: flex;
     justify-content: space-between;
+
+}
+/** Skill section style*/
+.skills_section{
+    background-color: white;
+    ;
+}
+.skills_title{
+    text-align:center ;
+    padding-top:139px
+}
+.skills_description{
+    text-align: center;
+    margin: 0 166px;
+    margin-bottom: 50px;
+
+}
+/** skill container section*/
+.skills_container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+.skills{
+    background-color: #FFFFFF;
+    padding: 30px;
+    /* background-color: red; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 6%);
+}
+.skill_title{
+    font-size: 20px;
+}
+.skill_description{
+    font-size: 16px;
+    
+}
+/** Resume section style*/
+.Resume{
+
+    background-color: #FFFFFF;
+}
+.resume_title{
+    text-align: center;
+   padding-top: 120px;
+   font-size: 45px;
+   color: #181818;
+   font-weight: bold;
+
+    
+}
+.qualitis_name{
+    display: flex;
+    gap:24px;
+    padding-right: ;
+    
+ 
+
+}
+.qualities_title{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #474747;
+}
+.Download_button{
+      background-color:#FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    display: block;
+    margin: 30px auto;
 
 }
